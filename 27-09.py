@@ -1,6 +1,6 @@
 import pandas as pd
 import streamlit as st
-import ploty.express as px
+import plotly.express as px
 from PIL import Image
 # Set the page configuration
 st.set_page_config(page_title='Dashboard', layout='wide')
