@@ -3,6 +3,9 @@ import streamlit as st
 import plotly.express as px
 from PIL import Image
 
+st.write("✅ Streamlit version:", st.__version__)
+st.write("✅ Plotly version:", plotly.__version__)
+st.write("✅ Pandas version:", pd.__version__)
 # Set the page configuration
 st.set_page_config(page_title='Dashboard', layout='wide')
 
